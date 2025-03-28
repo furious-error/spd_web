@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/furious-error/spd_web.git/issues"
   },
-  "homepage": "https://github.com/furious-error/spd_web.git#readme",
+  "homepage": "https://furious-error.github.io/spd_web/",
   "dependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "normalize.css": "^8.0.1",
