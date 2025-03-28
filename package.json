@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hyuto/yolov8-tfjs.git"
+    "url": "git+https://github.com/furious-error/spd_web.git"
   },
   "keywords": [
     "object detection",
@@ -19,12 +19,12 @@
     "react",
     "tensorflow.js"
   ],
-  "author": "Wahyu Setianto",
+  "author": "Nick Fury",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Hyuto/yolov8-tfjs/issues"
+    "url": "https://github.com/furious-error/spd_web.git/issues"
   },
-  "homepage": "https://github.com/Hyuto/yolov8-tfjs#readme",
+  "homepage": "https://github.com/furious-error/spd_web.git#readme",
   "dependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "normalize.css": "^8.0.1",
