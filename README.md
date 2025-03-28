@@ -15,16 +15,16 @@ with `webgl` backend.
 **Setup**
 
 ```bash
-git clone https://github.com/Hyuto/yolov8-tfjs.git
-cd yolov8-tfjs
-yarn install #Install dependencies
+git clone https://github.com/furious-error/spd_web.git
+cd spd_web
+npm i #Install dependencies
 ```
 
 **Scripts**
 
 ```bash
-yarn start # Start dev server
-yarn build # Build for productions
+npm start # Start dev server
+npm build # Build for productions
 ```
 
 ## Model
@@ -46,18 +46,18 @@ Use another YOLOv8 model.
    from ultralytics import YOLO
 
    # Load a model
-   model = YOLO("yolov8n.pt")  # load an official model
+   model = YOLO("spd.pt")  # load an official model
 
    # Export the model
    model.export(format="tfjs")
    ```
 
-2. Copy `yolov8*_web_model` to `./public`
+2. Copy `spd*_web_model` to `./public`
 3. Update `modelName` in `App.jsx` to new model name
    ```jsx
    ...
    // model configs
-   const modelName = "yolov8*"; // change to new model name
+   const modelName = "spd*"; // change to new model name
    ...
    ```
 4. Done! 😊
@@ -69,4 +69,3 @@ Please update `src/utils/labels.json` with your new classes.
 ## Reference
 
 - https://github.com/ultralytics/ultralytics
-- https://github.com/Hyuto/yolov8-onnxruntime-web
